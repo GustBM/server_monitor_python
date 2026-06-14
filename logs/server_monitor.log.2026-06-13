@@ -1,0 +1,254 @@
+2026-06-13 20:35:55 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.br:443
+2026-06-13 20:35:56 | DEBUG    | urllib3.connectionpool | https://www.visie.com.br:443 "GET / HTTP/1.1" 301 162
+2026-06-13 20:35:56 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): visie.com.br:443
+2026-06-13 20:35:58 | DEBUG    | urllib3.connectionpool | https://visie.com.br:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:35:58 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.be:443
+2026-06-13 20:35:58 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com.br:443
+2026-06-13 20:35:59 | DEBUG    | urllib3.connectionpool | https://www.google.com.br:443 "GET / HTTP/1.1" 301 220
+2026-06-13 20:35:59 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com:443
+2026-06-13 20:35:59 | DEBUG    | urllib3.connectionpool | https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:39:50 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.br:443
+2026-06-13 20:39:51 | DEBUG    | urllib3.connectionpool | https://www.visie.com.br:443 "GET / HTTP/1.1" 301 162
+2026-06-13 20:39:51 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): visie.com.br:443
+2026-06-13 20:39:52 | DEBUG    | urllib3.connectionpool | https://visie.com.br:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:39:53 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.be:443
+2026-06-13 20:39:53 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com.br:443
+2026-06-13 20:39:53 | DEBUG    | urllib3.connectionpool | https://www.google.com.br:443 "GET / HTTP/1.1" 301 220
+2026-06-13 20:39:53 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com:443
+2026-06-13 20:39:54 | DEBUG    | urllib3.connectionpool | https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:43:28 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.br:443
+2026-06-13 20:43:30 | DEBUG    | urllib3.connectionpool | https://www.visie.com.br:443 "GET / HTTP/1.1" 301 162
+2026-06-13 20:43:30 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): visie.com.br:443
+2026-06-13 20:43:31 | DEBUG    | urllib3.connectionpool | https://visie.com.br:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:43:31 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.be:443
+2026-06-13 20:43:31 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com.br:443
+2026-06-13 20:43:32 | DEBUG    | urllib3.connectionpool | https://www.google.com.br:443 "GET / HTTP/1.1" 301 220
+2026-06-13 20:43:32 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com:443
+2026-06-13 20:43:32 | DEBUG    | urllib3.connectionpool | https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:43:39 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.br:443
+2026-06-13 20:43:41 | DEBUG    | urllib3.connectionpool | https://www.visie.com.br:443 "GET / HTTP/1.1" 301 162
+2026-06-13 20:43:41 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): visie.com.br:443
+2026-06-13 20:43:42 | DEBUG    | urllib3.connectionpool | https://visie.com.br:443 "GET / HTTP/1.1" 200 None
+2026-06-13 20:43:42 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.visie.com.be:443
+2026-06-13 20:43:42 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com.br:443
+2026-06-13 20:43:43 | DEBUG    | urllib3.connectionpool | https://www.google.com.br:443 "GET / HTTP/1.1" 301 220
+2026-06-13 20:43:43 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): www.google.com:443
+2026-06-13 20:43:44 | DEBUG    | urllib3.connectionpool | https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-06-13 21:27:04 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01'] | check_interval=60s | notification_interval=300s
+2026-06-13 21:33:58 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 21:33:59 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 21:37:51 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01'] | check_interval=60s | notification_interval=300s
+2026-06-13 21:38:11 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 21:38:11 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 21:48:44 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=60s | notification_interval=300s
+2026-06-13 21:49:03 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 21:49:03 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 21:56:08 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=60s | notification_interval=300s
+2026-06-13 21:56:13 | WARNING  | monitor.loop | WENT OFFLINE web-server-01 (192.168.1.10:80)
+2026-06-13 21:56:13 | ERROR    | monitor.loop | Unhandled exception in monitor loop: 'MonitorLoop' object has no attribute '_notify'
+Traceback (most recent call last):
+  File "/home/Gustavo/Área de trabalho/Projetos/server_monitor_python/monitor/loop.py", line 31, in run
+    self._probe_round()
+  File "/home/Gustavo/Área de trabalho/Projetos/server_monitor_python/monitor/loop.py", line 51, in _probe_round
+    self._process_transition(state, server, is_up, now_mono, now_wall)
+  File "/home/Gustavo/Área de trabalho/Projetos/server_monitor_python/monitor/loop.py", line 89, in _process_transition
+    self._notify(notifier.send_offline_alert, server, state, cfg)
+AttributeError: 'MonitorLoop' object has no attribute '_notify'
+2026-06-13 22:10:54 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=60s | notification_interval=300s
+2026-06-13 22:10:59 | WARNING  | monitor.loop | WENT OFFLINE web-server-01 (192.168.1.10:80)
+2026-06-13 22:10:59 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:11:04 | WARNING  | monitor.loop | WENT OFFLINE web-server-02 (192.168.1.11:80)
+2026-06-13 22:11:04 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:11:09 | WARNING  | monitor.loop | WENT OFFLINE db-server-01 (192.168.1.20:5432)
+2026-06-13 22:11:09 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:11:09 | INFO     | monitor.loop | INITIAL OK google-dns
+2026-06-13 22:12:24 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:13:39 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:14:39 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 22:14:54 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:14:54 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 22:22:55 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=60s | notification_interval=300s
+2026-06-13 22:23:00 | WARNING  | monitor.loop | WENT OFFLINE web-server-01 (192.168.1.10:80)
+2026-06-13 22:23:00 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:23:05 | WARNING  | monitor.loop | WENT OFFLINE web-server-02 (192.168.1.11:80)
+2026-06-13 22:23:05 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:23:10 | WARNING  | monitor.loop | WENT OFFLINE db-server-01 (192.168.1.20:5432)
+2026-06-13 22:23:10 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:23:10 | INFO     | monitor.loop | INITIAL OK google-dns
+2026-06-13 22:24:25 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:25:40 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:26:55 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:28:00 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=5)
+2026-06-13 22:28:00 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:28:05 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=5)
+2026-06-13 22:28:05 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:28:10 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=5)
+2026-06-13 22:28:10 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:28:10 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:28:37 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 22:28:37 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 22:36:04 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=60s | notification_interval=300s
+2026-06-13 22:36:04 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:36:09 | INFO     | monitor.loop | INITIAL PROBE OK web-server-01
+2026-06-13 22:36:14 | INFO     | monitor.loop | INITIAL PROBE OK web-server-02
+2026-06-13 22:36:19 | INFO     | monitor.loop | INITIAL PROBE OK db-server-01
+2026-06-13 22:36:19 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 22:37:03 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 22:37:03 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 22:37:07 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=60s | notification_interval=300s
+2026-06-13 22:37:07 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:37:12 | WARNING  | monitor.loop | IS OFFLINE web-server-01 (192.168.1.10:80)
+2026-06-13 22:37:12 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:37:17 | WARNING  | monitor.loop | IS OFFLINE web-server-02 (192.168.1.11:80)
+2026-06-13 22:37:17 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:37:22 | WARNING  | monitor.loop | IS OFFLINE db-server-01 (192.168.1.20:5432)
+2026-06-13 22:37:22 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:37:22 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 22:38:22 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:38:37 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:39:37 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:39:52 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:40:52 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:41:07 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:42:07 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:42:12 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=5)
+2026-06-13 22:42:12 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:42:17 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=5)
+2026-06-13 22:42:17 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:42:22 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=5)
+2026-06-13 22:42:22 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:42:22 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:42:22 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 22:42:22 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 22:47:24 | INFO     | monitor.loop | Monitor started | servers=['web-server-01', 'web-server-02', 'db-server-01', 'google-dns'] | check_interval=20s | notification_interval=300s
+2026-06-13 22:47:24 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:47:29 | WARNING  | monitor.loop | IS OFFLINE web-server-01 (192.168.1.10:80)
+2026-06-13 22:47:29 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:47:34 | WARNING  | monitor.loop | IS OFFLINE web-server-02 (192.168.1.11:80)
+2026-06-13 22:47:34 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:47:39 | WARNING  | monitor.loop | IS OFFLINE db-server-01 (192.168.1.20:5432)
+2026-06-13 22:47:39 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:47:39 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 22:47:59 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:48:04 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=2)
+2026-06-13 22:48:04 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:48:09 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=2)
+2026-06-13 22:48:09 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:48:14 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=2)
+2026-06-13 22:48:14 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:48:14 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:48:34 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:48:39 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=3)
+2026-06-13 22:48:39 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:48:44 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=3)
+2026-06-13 22:48:44 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:48:49 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=3)
+2026-06-13 22:48:49 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:48:49 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:49:09 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:49:14 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=4)
+2026-06-13 22:49:14 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:49:19 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=4)
+2026-06-13 22:49:19 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:49:24 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=4)
+2026-06-13 22:49:24 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:49:24 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:49:44 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:49:49 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=5)
+2026-06-13 22:49:49 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:49:54 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=5)
+2026-06-13 22:49:54 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:49:59 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=5)
+2026-06-13 22:49:59 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:49:59 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:50:19 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:50:24 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=6)
+2026-06-13 22:50:24 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:50:29 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=6)
+2026-06-13 22:50:29 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:50:34 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=6)
+2026-06-13 22:50:34 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:50:34 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:50:54 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:50:59 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=7)
+2026-06-13 22:50:59 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:51:04 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=7)
+2026-06-13 22:51:04 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:51:09 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=7)
+2026-06-13 22:51:09 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:51:09 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:51:29 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:51:34 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=8)
+2026-06-13 22:51:34 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:51:39 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=8)
+2026-06-13 22:51:39 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:51:44 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=8)
+2026-06-13 22:51:44 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:51:44 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:52:04 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 22:52:09 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=9)
+2026-06-13 22:52:09 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-13 22:52:11 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 22:52:14 | WARNING  | monitor.loop | STILL OFFLINE web-server-02 (failures=9)
+2026-06-13 22:52:14 | INFO     | monitor.notifier | Offline alert sent for web-server-02
+2026-06-13 22:52:19 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=9)
+2026-06-13 22:52:19 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 22:52:19 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 22:52:19 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 23:17:29 | INFO     | monitor.loop | Monitor started | servers=['db-server-01', 'google-dns'] | check_interval=20s | notification_interval=300s
+2026-06-13 23:17:29 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:17:34 | WARNING  | monitor.loop | IS OFFLINE db-server-01 (192.168.1.20:5432)
+2026-06-13 23:17:38 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 23:17:38 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 23:17:58 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:18:01 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 23:18:03 | WARNING  | monitor.loop | STILL OFFLINE db-server-01 (failures=2)
+2026-06-13 23:18:08 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 23:18:08 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:18:08 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 23:19:58 | INFO     | monitor.loop | Monitor started | servers=['db-server-01', 'google-dns'] | check_interval=20s | notification_interval=300s
+2026-06-13 23:19:58 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:20:03 | WARNING  | monitor.loop | IS OFFLINE db-server-01 (192.168.1.20:5432)
+2026-06-13 23:20:07 | INFO     | monitor.notifier | Offline alert sent for db-server-01
+2026-06-13 23:20:07 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 23:20:22 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 23:20:22 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 23:31:10 | INFO     | monitor.loop | Monitor started | servers=['google-dns', 'local-test'] | check_interval=20s | notification_interval=300s
+2026-06-13 23:31:10 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:31:10 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 23:31:10 | INFO     | monitor.loop | INITIAL PROBE OK local-test
+2026-06-13 23:31:30 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:31:30 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:31:30 | DEBUG    | monitor.loop | OK local-test
+2026-06-13 23:31:50 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:31:50 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:31:50 | WARNING  | monitor.loop | WENT OFFLINE local-test (127.0.0.1:9999)
+2026-06-13 23:31:58 | ERROR    | monitor.notifier | Failed to send email: Connection unexpectedly closed: The read operation timed out
+2026-06-13 23:31:58 | ERROR    | monitor.loop | Notification failed: Connection unexpectedly closed: The read operation timed out
+2026-06-13 23:32:18 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:32:18 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:32:18 | WARNING  | monitor.loop | STILL OFFLINE local-test (failures=2)
+2026-06-13 23:32:23 | INFO     | monitor.notifier | Offline alert sent for local-test
+2026-06-13 23:32:43 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:32:43 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:32:43 | INFO     | monitor.loop | RECOVERY local-test | still_offline=[]
+2026-06-13 23:32:43 | INFO     | monitor.notifier | Recovery notice sent for local-test
+2026-06-13 23:33:03 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:33:03 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:33:03 | DEBUG    | monitor.loop | OK local-test
+2026-06-13 23:33:12 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 23:33:12 | INFO     | monitor.loop | Monitor stopped
+2026-06-13 23:33:39 | INFO     | monitor.loop | Monitor started | servers=['google-dns', 'local-test'] | check_interval=20s | notification_interval=300s
+2026-06-13 23:33:39 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:33:39 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-13 23:33:39 | INFO     | monitor.loop | INITIAL PROBE OK local-test
+2026-06-13 23:33:59 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:33:59 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:33:59 | WARNING  | monitor.loop | WENT OFFLINE local-test (127.0.0.1:9999)
+2026-06-13 23:34:04 | INFO     | monitor.notifier | Offline alert sent for local-test
+2026-06-13 23:34:24 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-13 23:34:24 | DEBUG    | monitor.loop | OK google-dns
+2026-06-13 23:34:24 | INFO     | monitor.loop | RECOVERY local-test | still_offline=[]
+2026-06-13 23:34:29 | INFO     | monitor.notifier | Recovery notice sent for local-test
+2026-06-13 23:34:37 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-13 23:34:37 | INFO     | monitor.loop | Monitor stopped
