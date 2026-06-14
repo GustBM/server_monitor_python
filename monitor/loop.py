@@ -47,10 +47,6 @@ class MonitorLoop:
             server = cfg.servers[hostname]
             state = self._state_manager.get(hostname)
             is_up = checker.check_server(server, timeout=cfg.socket_timeout)
-            # if is_up:
-            #   print(f"Servidor {hostname} ONLINE")
-            # else:
-            #   print(f"Servidor {hostname} OFFLINE")
             self._process_transition(state, server, is_up, now_mono, now_wall)
 
     def _process_transition(
@@ -113,17 +109,9 @@ class MonitorLoop:
                 state.consecutive_failures,
             )
             self._notify(notifier.send_offline_alert, server, state, cfg)
-            # if elapsed >= cfg.notification_interval:
-            #     state.last_notified = now_mono
-            #     logger.warning(
-            #         "STILL OFFLINE %s (failures=%d)",
-            #         server.hostname,
-            #         state.consecutive_failures,
-            #     )
-            #     self._notify(notifier.send_offline_alert, server, state, cfg)
 
         else:
-            # Case ONLINE-TO-ONLINE or UNKNOWN-TO-ONLINE (first successful probe).
+            # Case ONLINE-TO-ONLINE or UNKNOWN-TO-ONLINE.
             if prev_status != ServerStatus.ONLINE:
                 state.status = ServerStatus.ONLINE
                 state.last_changed = now_mono
@@ -136,4 +124,6 @@ class MonitorLoop:
         try:
             fn(*args, **kwargs)
         except NotificationError as exc:
+            logger.error("Notification failed: %s", exc)
+        except:
             logger.error("Notification failed: %s", exc)
