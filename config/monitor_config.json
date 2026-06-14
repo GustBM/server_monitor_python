@@ -1,0 +1,16 @@
+{
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "use_tls": true,
+    "use_starttls": false,
+    "username": "monitor@example.com",
+    "password": "app_password_here",
+    "sender_email": "monitor@example.com",
+    "timeout": 10
+  },
+  "check_interval": 60,
+  "notification_interval": 300,
+  "socket_timeout": 5,
+  "log_dir": "../logs"
+}

@@ -1,0 +1,8 @@
+[
+  {"hostname": "web-server-01",   "ip": "192.168.1.10", "port": 80},
+  {"hostname": "web-server-02",   "ip": "192.168.1.11", "port": 80},
+  {"hostname": "db-server-01",    "ip": "192.168.1.20", "port": 5432},
+  {"hostname": "cache-server-01", "ip": "192.168.1.30", "port": 6379},
+  {"hostname": "api-server-01",   "ip": "192.168.1.40", "port": 8080},
+  {"hostname": "google-dns",      "ip": "8.8.8.8",      "port": 53}
+]
