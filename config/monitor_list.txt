@@ -1,4 +1,2 @@
-web-server-01
-web-server-02
-db-server-01
 google-dns
+local-test

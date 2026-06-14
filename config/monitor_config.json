@@ -4,12 +4,12 @@
     "port": 465,
     "use_tls": true,
     "use_starttls": false,
-    "username": "monitor@example.com",
-    "password": "app_password_here",
-    "sender_email": "monitor@example.com",
-    "timeout": 10
+    "username": "gbmarchesan@gmail.com",
+    "password": "tkpt ilai nzfg ljhg",
+    "sender_email": "no@reply.com",
+    "timeout": 5
   },
-  "check_interval": 60,
+  "check_interval": 20,
   "notification_interval": 300,
   "socket_timeout": 5,
   "log_dir": "../logs"

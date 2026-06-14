@@ -21,19 +21,19 @@ def send_offline_alert(
     state: ServerState,
     config: AppConfig,
 ) -> None:
-    # offline_since = (
-    #     datetime.fromtimestamp(state.offline_since).strftime("%Y-%m-%d %H:%M:%S")
-    #     if state.offline_since
-    #     else "unknown"
-    # )
-    # timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    offline_since = (
+        datetime.fromtimestamp(state.offline_since).strftime("%Y-%m-%d %H:%M:%S")
+        if state.offline_since
+        else "unknown"
+    )
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # subject = f"[ALERT] Server {server.hostname} is OFFLINE"
-    # plain = _offline_plain(server, offline_since, timestamp, config.notification_interval)
-    # html = _offline_html(server, offline_since, timestamp, config.notification_interval)
+    subject = f"[ALERT] Server {server.hostname} is OFFLINE"
+    plain = _offline_plain(server, offline_since, timestamp, config.notification_interval)
+    html = _offline_html(server, offline_since, timestamp, config.notification_interval)
 
-    # message = _build_message(subject, plain, html, config.smtp, config.recipients)
-    # _send_via_smtp(message, config.smtp)
+    message = _build_message(subject, plain, html, config.smtp, config.recipients)
+    _send_via_smtp(message, config.smtp)
     logger.info("Offline alert sent for %s", server.hostname)
 
 
@@ -42,13 +42,13 @@ def send_recovery_notice(
     still_offline: List[str],
     config: AppConfig,
 ) -> None:
-    # timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    # subject = f"[RECOVERY] Server {server.hostname} is back ONLINE"
-    # plain = _recovery_plain(server, still_offline, timestamp)
-    # html = _recovery_html(server, still_offline, timestamp)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    subject = f"[RECOVERY] Server {server.hostname} is back ONLINE"
+    plain = _recovery_plain(server, still_offline, timestamp)
+    html = _recovery_html(server, still_offline, timestamp)
 
-    # message = _build_message(subject, plain, html, config.smtp, config.recipients)
-    # _send_via_smtp(message, config.smtp)
+    message = _build_message(subject, plain, html, config.smtp, config.recipients)
+    _send_via_smtp(message, config.smtp)
     logger.info("Recovery notice sent for %s", server.hostname)
 
 
@@ -129,7 +129,7 @@ def _offline_html(
         f'<tr><td><b>Offline Since</b></td><td>{offline_since}</td></tr>'
         f'<tr><td><b>Detected At</b></td><td>{timestamp}</td></tr>'
         f'</table>'
-        f'<p><i>This alert repeats every {notification_interval}s while offline.</i></p>'
+        f'<p><i>This alert repeats until the server goes back online.</i></p>'
         f'<p style="color:#888">-- Server Monitor (automated)</p>'
         f'</body></html>'
     )

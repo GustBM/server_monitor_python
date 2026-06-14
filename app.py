@@ -37,13 +37,5 @@ def main():
 
   loop.run()
 
-  # for hostname in config.monitored_hostnames:
-  #   server = config.servers[hostname]
-  #   status = check_server(server)
-    # if status:
-    #   print(f"Servidor {server.hostname} ONLINE")
-    # else:
-    #   print(f"Servidor {server.hostname} OFFLINE")
-
 if __name__ == "__main__":
   main()
