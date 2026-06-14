@@ -1,7 +1,12 @@
 import json
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class ConfigError(ValueError):
@@ -56,18 +61,23 @@ def _load_json(path: Path) -> object:
 
 
 def _parse_smtp(data: dict) -> SmtpConfig:
-    required = ("host", "port", "use_tls", "use_starttls", "username", "password", "sender_email")
+    required = ("host", "port", "use_tls", "use_starttls")
     missing = [k for k in required if k not in data]
     if missing:
         raise ConfigError(f"smtp config missing keys: {missing}")
+
+    missing_env = [k for k in ("SMTP_USERNAME", "SMTP_PASSWORD", "SMTP_SENDER") if not os.environ.get(k)]
+    if missing_env:
+        raise ConfigError(f"Missing environment variables: {missing_env}")
+
     return SmtpConfig(
         host=data["host"],
         port=int(data["port"]),
         use_tls=bool(data["use_tls"]),
         use_starttls=bool(data["use_starttls"]),
-        username=data["username"],
-        password=data["password"],
-        sender_email=data["sender_email"],
+        username=os.environ["SMTP_USERNAME"],
+        password=os.environ["SMTP_PASSWORD"],
+        sender_email=os.environ["SMTP_SENDER"],
         timeout=int(data.get("timeout", 10)),
     )
 
