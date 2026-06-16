@@ -102,13 +102,14 @@ class MonitorLoop:
             # Case OFFLINE-TO-OFFLINE
             state.consecutive_failures += 1
             elapsed = now_mono - state.last_notified
-            state.last_notified = now_mono
             logger.warning(
                 "STILL OFFLINE %s (failures=%d)",
                 server.hostname,
                 state.consecutive_failures,
             )
-            self._notify(notifier.send_offline_alert, server, state, cfg)
+            if elapsed >= cfg.notification_interval:
+                state.last_notified = now_mono
+                self._notify(notifier.send_offline_alert, server, state, cfg)
 
         else:
             # Case ONLINE-TO-ONLINE or UNKNOWN-TO-ONLINE.

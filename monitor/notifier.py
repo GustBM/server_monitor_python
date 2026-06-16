@@ -129,7 +129,7 @@ def _offline_html(
         f'<tr><td><b>Offline Since</b></td><td>{offline_since}</td></tr>'
         f'<tr><td><b>Detected At</b></td><td>{timestamp}</td></tr>'
         f'</table>'
-        f'<p><i>This alert repeats until the server goes back online.</i></p>'
+        f"This alert will repeat every {notification_interval} seconds "
         f'<p style="color:#888">-- Server Monitor (automated)</p>'
         f'</body></html>'
     )

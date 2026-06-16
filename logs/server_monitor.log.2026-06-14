@@ -1,0 +1,48 @@
+2026-06-14 13:09:50 | INFO     | monitor.loop | Monitor started | servers=['google-dns', 'local-test'] | check_interval=20s | notification_interval=300s
+2026-06-14 13:09:50 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:09:50 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-14 13:09:50 | WARNING  | monitor.loop | IS OFFLINE local-test (127.0.0.1:9999)
+2026-06-14 13:09:55 | INFO     | monitor.notifier | Offline alert sent for local-test
+2026-06-14 13:10:15 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:10:15 | DEBUG    | monitor.loop | OK google-dns
+2026-06-14 13:10:15 | WARNING  | monitor.loop | STILL OFFLINE local-test (failures=2)
+2026-06-14 13:10:21 | INFO     | monitor.notifier | Offline alert sent for local-test
+2026-06-14 13:10:25 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-14 13:10:25 | INFO     | monitor.loop | Monitor stopped
+2026-06-14 13:35:19 | INFO     | monitor.loop | Monitor started | servers=['google-dns', 'local-test'] | check_interval=60s | notification_interval=300s
+2026-06-14 13:35:19 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:35:20 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-14 13:35:20 | WARNING  | monitor.loop | IS OFFLINE local-test (127.0.0.1:9999)
+2026-06-14 13:35:25 | INFO     | monitor.notifier | Offline alert sent for local-test
+2026-06-14 13:36:25 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:36:25 | DEBUG    | monitor.loop | OK google-dns
+2026-06-14 13:36:25 | INFO     | monitor.loop | RECOVERY local-test | still_offline=[]
+2026-06-14 13:36:30 | INFO     | monitor.notifier | Recovery notice sent for local-test
+2026-06-14 13:36:44 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-14 13:36:44 | INFO     | monitor.loop | Monitor stopped
+2026-06-14 13:41:46 | INFO     | monitor.loop | Monitor started | servers=['google-dns', 'local-test'] | check_interval=60s | notification_interval=300s
+2026-06-14 13:41:46 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:41:46 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-14 13:41:46 | INFO     | monitor.loop | INITIAL PROBE OK local-test
+2026-06-14 13:42:27 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-14 13:42:27 | INFO     | monitor.loop | Monitor stopped
+2026-06-14 13:43:12 | INFO     | monitor.loop | Monitor started | servers=['google-dns', 'local-test', 'web-server-01'] | check_interval=60s | notification_interval=300s
+2026-06-14 13:43:12 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:43:12 | INFO     | monitor.loop | INITIAL PROBE OK google-dns
+2026-06-14 13:43:12 | INFO     | monitor.loop | INITIAL PROBE OK local-test
+2026-06-14 13:43:17 | WARNING  | monitor.loop | IS OFFLINE web-server-01 (192.168.1.10:80)
+2026-06-14 13:43:24 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-14 13:44:24 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:44:24 | DEBUG    | monitor.loop | OK google-dns
+2026-06-14 13:44:24 | WARNING  | monitor.loop | WENT OFFLINE local-test (127.0.0.1:9999)
+2026-06-14 13:44:29 | INFO     | monitor.notifier | Offline alert sent for local-test
+2026-06-14 13:44:34 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=2)
+2026-06-14 13:44:40 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-14 13:45:40 | INFO     | monitor.loop | -- NEW PROBE START --
+2026-06-14 13:45:40 | DEBUG    | monitor.loop | OK google-dns
+2026-06-14 13:45:40 | INFO     | monitor.loop | RECOVERY local-test | still_offline=['web-server-01']
+2026-06-14 13:45:46 | INFO     | monitor.notifier | Recovery notice sent for local-test
+2026-06-14 13:45:51 | WARNING  | monitor.loop | STILL OFFLINE web-server-01 (failures=3)
+2026-06-14 13:45:55 | INFO     | monitor.notifier | Offline alert sent for web-server-01
+2026-06-14 13:46:18 | INFO     | monitor.loop | Shutdown requested — stopping monitor loop
+2026-06-14 13:46:18 | INFO     | monitor.loop | Monitor stopped
